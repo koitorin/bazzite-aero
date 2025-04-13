@@ -6,9 +6,9 @@ set -ouex pipefail
 dnf5 install -y konsole
 
 # Install aerothemeplasma
-chmod +x 10-aero-theme.sh
-bash 10-aero-theme.sh
-bash 11-fonts.sh
+chmod +x /usr/local/bin/10-aero-theme.sh
+/usr/local/bin/10-aero-theme.sh
+/usr/local/bin/11-fonts.sh
 
 # Use a COPR Example:
 #
