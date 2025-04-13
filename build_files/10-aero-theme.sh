@@ -2,7 +2,7 @@
 
 set -exuo pipefail
 
-patch_file=$(realpath 10-aero-theme.diff)
+patch_file=$(realpath /tmp/10-aero-theme.diff)
 
 cd /tmp/
 wget https://gitgud.io/wackyideas/aerothemeplasma/-/archive/master/aerothemeplasma-master.tar.gz
